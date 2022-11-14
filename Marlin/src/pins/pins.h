@@ -779,6 +779,8 @@
 
 #elif MB(CUSTOM)
   #include "pins_custom.h"                      //                                        env:custom
+#elif MB(SNAPMAKER_J1)
+  #include "stm32f4/pins_SNAPMAKER_J1.h"        //                                        env:J1
 
 //
 // Linux Native Debug board
